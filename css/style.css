@@ -1,0 +1,16 @@
+#timer{
+    text-align:center;
+    margin-top:calc(40vh);
+    margin-left:calc(20vw);
+    font-size:175px;
+}
+@media (max-width: 1000px){
+#timer{
+font-size:50px;
+}
+}
+@media (max-width: 1400px){
+    #timer{
+    font-size:100px;
+    }
+}
