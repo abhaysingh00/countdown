@@ -2,7 +2,7 @@ setInterval(update,1000);
 function update(){
 let date = new Date();
 let time = date.getTime();
-let newYearTime= new Date("January 01,2022 00:00:00").getTime();
+let newYearTime= new Date("August 08,2021 00:00:00").getTime();
 let milisecond=newYearTime-time;
 let divisor=1000*60*60;
 let exactHours=(milisecond/divisor);
